@@ -1,0 +1,12 @@
+.grid {
+ 
+  overflow-x: auto;
+ 
+  width: 1920px;
+  padding:20px;
+  /* margin-right: 50px; */
+  white-space: nowrap;
+
+  margin: 100px 0 0;
+
+}
