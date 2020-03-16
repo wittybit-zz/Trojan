@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2ccbc8831f2510c0e4ebaf4400779f4",
+    "revision": "0a0d1656b6f6d87e6072eabd6cf03e7a",
     "url": "/github.io/Trojan/index.html"
   },
   {
-    "revision": "5be6947e953c3db1bcb0",
+    "revision": "7973993ed594ceb4e69b",
     "url": "/github.io/Trojan/static/css/main.af40fbd3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/github.io/Trojan/static/js/2.540ccb95.chunk.js"
   },
   {
-    "revision": "5be6947e953c3db1bcb0",
-    "url": "/github.io/Trojan/static/js/main.cfb6a7f9.chunk.js"
+    "revision": "7973993ed594ceb4e69b",
+    "url": "/github.io/Trojan/static/js/main.9a4350c0.chunk.js"
   },
   {
     "revision": "4edce41b2ba22358fb30",

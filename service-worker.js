@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/github.io/Trojan/precache-manifest.6b85202025399db84fb9070602ac9a60.js"
+  "/github.io/Trojan/precache-manifest.d84800434c1454b9c428849e2626865e.js"
 );
 
 self.addEventListener('message', (event) => {
