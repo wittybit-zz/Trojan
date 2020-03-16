@@ -2,10 +2,12 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wittybit/github.io/Trojan",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "gh-pages": "^2.2.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-drag-drawer": "^3.3.3",
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

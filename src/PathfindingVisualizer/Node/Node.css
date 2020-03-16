@@ -4,14 +4,17 @@
   outline: 1px solid rgb(175, 216, 248);
   display: inline-block;
   vertical-align: top;
-}
-
-.node-finish {
   background-color: white;
 }
 
+.node-finish {
+  /* background-color: white; */
+  background-image: url("./icons/water.svg");
+}
+
 .node-start {
-  background-color: green;
+  background-image: url("./icons/start.svg");
+
 }
 
 .node-visited {

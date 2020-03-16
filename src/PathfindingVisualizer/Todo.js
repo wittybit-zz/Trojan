@@ -72,13 +72,14 @@ class Todo extends React.Component {
 
 
   animateShortestPath(nodesInShortestPathOrder) {
-    for (let i = 0; i < nodesInShortestPathOrder.length; i++) {
+    for (let i = 0; i < nodesInShortestPathOrder.length - 1; i++) {
       setTimeout(() => {
         const node = nodesInShortestPathOrder[i];
         document.getElementById(`node-${node.row}-${node.col}`).className =
           'node node-shortest-path';
       }, 50 * i);
     }
+
   }
 
   visualizeDijkstra(sr, sc, er, ec) {
@@ -170,8 +171,6 @@ class Todo extends React.Component {
       var FINISH_NODE_COL = targetCol;
       this.visualizeDijkstra(START_NODE_ROW, START_NODE_COL, FINISH_NODE_ROW, FINISH_NODE_COL);
 
-      // START_NODE_ROW = FINISH_NODE_ROW;
-      // START_NODE_COL = FINISH_NODE_COL;
     }
 
 
